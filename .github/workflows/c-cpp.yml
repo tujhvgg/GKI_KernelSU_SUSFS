@@ -1,0 +1,23 @@
+名字: C/C++ CI
+
+在:
+推:
+分支: [ "dev" ]
+query为空 pull_request:
+分支: [ "dev" ]
+
+工作:
+建筑:
+
+    runs-on: ubuntu-latest
+
+步骤:
+    - 分支: actions/checkout@v4
+    - 工作: 建筑
+工作: 建筑
+步骤: 用途
+名字: 配置
+跑: /配置
+作: 制
+名字: 做检查跑
+跑: 做检查
